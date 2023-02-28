@@ -1,0 +1,1 @@
+export { default as GGOTlng} from "./GGOTlng.jsx"

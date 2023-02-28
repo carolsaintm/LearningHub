@@ -1,3 +1,6 @@
 .cardLayout{
-    flex: 2;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-evenly
 }

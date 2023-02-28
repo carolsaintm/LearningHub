@@ -53,7 +53,19 @@ const Home = () => {
       Risk Management Learning hub
     </SolidCard.Footer>
   </SolidCard>
-
+  <SolidCard compact>
+    <a href="#">
+      <SolidCard.Body>
+        <SolidCard.Body.Icon>
+          <User1Icon />
+        </SolidCard.Body.Icon>
+        <SolidCard.Body.Title link>GGOT LNG</SolidCard.Body.Title>
+      </SolidCard.Body>
+    </a>
+    <SolidCard.Footer>
+      GGOT LNG Learning hub
+    </SolidCard.Footer>
+  </SolidCard>
  
 </Card.List>
         </>
