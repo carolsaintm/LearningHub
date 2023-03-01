@@ -1,1 +1,0 @@
-export { default as GGOTGas} from "./GGOTGas.jsx"

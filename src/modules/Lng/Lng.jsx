@@ -4,10 +4,9 @@ import {
   } from "@exxonmobil/react-unity";
   import React from "react";
   import keyboard from "../../assets/keyboard.jpg"
-  import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
 
-const RiskManagement = () => {
+const Lng = () => {
 
     return(
         <>
@@ -25,4 +24,4 @@ const RiskManagement = () => {
     );
 }
 
-export default RiskManagement;
+export default Lng;

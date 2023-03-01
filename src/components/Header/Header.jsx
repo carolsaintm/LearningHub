@@ -23,10 +23,10 @@ function Header (){
           <Link to="/RiskManagement">
             <HorizontalHeader.Nav.Item>Risk Management</HorizontalHeader.Nav.Item>
           </Link>
-          <Link to="/GGOTlng">
+          <Link to="/Lng">
             <HorizontalHeader.Nav.Item>GGOT LNG</HorizontalHeader.Nav.Item>
           </Link>
-          <Link to="/GGOTGas">
+          <Link to="/Gas">
             <HorizontalHeader.Nav.Item>GGOT Flowing Gas</HorizontalHeader.Nav.Item>
           </Link>
     </HorizontalHeader.Nav>

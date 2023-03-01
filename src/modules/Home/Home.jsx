@@ -7,7 +7,7 @@ import {
   } from "@exxonmobil/react-unity";
   import React from "react";
   import keyboard from "../../assets/keyboard.jpg"
-
+  import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
 
 const Home = () => {
@@ -27,46 +27,48 @@ const Home = () => {
 
 
 <Card.List className={Styles.cardLayout}>
+
+  <Link to="/Trading">
   <SolidCard compact>
-    <a href="#">
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
         </SolidCard.Body.Icon>
         <SolidCard.Body.Title link>Trading</SolidCard.Body.Title>
       </SolidCard.Body>
-    </a>
     <SolidCard.Footer>
       Trading Learning hub
     </SolidCard.Footer>
   </SolidCard>
+  </Link>
+  
+  <Link to="/RiskManagement">
   <SolidCard compact>
-    <a href="#">
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
         </SolidCard.Body.Icon>
-        <SolidCard.Body.Title link>Risk Management</SolidCard.Body.Title>
+        <SolidCard.Body.Title link>RiskManagement</SolidCard.Body.Title>
       </SolidCard.Body>
-    </a>
     <SolidCard.Footer>
       Risk Management Learning hub
     </SolidCard.Footer>
   </SolidCard>
+  </Link>
+  
+  <Link to="/GGOTGas">
   <SolidCard compact>
-    <a href="#">
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
         </SolidCard.Body.Icon>
-        <SolidCard.Body.Title link>GGOT LNG</SolidCard.Body.Title>
+        <SolidCard.Body.Title link>GGOTGas</SolidCard.Body.Title>
       </SolidCard.Body>
-    </a>
     <SolidCard.Footer>
-      GGOT LNG Learning hub
+      GGOT Flowing Gas Learning hub
     </SolidCard.Footer>
   </SolidCard>
- 
+  </Link>
 </Card.List>
         </>
     );

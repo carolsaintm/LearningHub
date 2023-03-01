@@ -7,8 +7,10 @@ import {
   import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
 
-const RiskManagement = () => {
 
+const Gas = () => {
+
+  
     return(
         <>
         <HeroBlock backgroundImage={keyboard}>
@@ -25,4 +27,4 @@ const RiskManagement = () => {
     );
 }
 
-export default RiskManagement;
+export default Gas;

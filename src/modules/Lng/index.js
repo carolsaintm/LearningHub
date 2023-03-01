@@ -1,0 +1,1 @@
+export { default as Lng } from "./Lng.jsx"
