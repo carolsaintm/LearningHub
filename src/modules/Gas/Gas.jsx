@@ -6,7 +6,7 @@ import {
   import keyboard from "../../assets/keyboard.jpg"
   import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
-
+import { TrainingList } from "../../components/TrainingList";
 
 const Gas = () => {
 
@@ -23,6 +23,8 @@ const Gas = () => {
     <Button variant="primary">Hero CTA</Button>
   </HeroBlock.Body>
 </HeroBlock>
+
+<TrainingList/>
         </>
     );
 }

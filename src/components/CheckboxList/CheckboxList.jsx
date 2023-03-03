@@ -17,7 +17,6 @@ const App = () => {
       <div label="Trainings" className={Styles.grid}>
         <Checkbox className={Styles.line}
           value="1"
-          label="Option A"
           id="a"
           checked={checkedA}
           onChange={(checked) => setCheckedA(checked)}

@@ -14,10 +14,10 @@ const Home = () => {
 
     return(
         <>
-        <HeroBlock backgroundImage={keyboard}>
-  <HeroBlock.Body>
-    <HeroBlock.Title>Welcome to Learning Hub</HeroBlock.Title>
-    <HeroBlock.Description>
+<HeroBlock className={Styles.hero} backgroundImage={keyboard}>
+    <HeroBlock.Body>
+        <HeroBlock.Title>Welcome to Learning Hub</HeroBlock.Title>
+        <HeroBlock.Description>
       This is some additional text that accompanies the headline, which could be
       used to provide a short description
     </HeroBlock.Description>
@@ -26,10 +26,9 @@ const Home = () => {
 </HeroBlock>
 
 
-<Card.List className={Styles.cardLayout}>
-
+<div className={Styles.cardLayout}>
   <Link to="/Trading">
-  <SolidCard compact>
+  <SolidCard compact className={Styles.solidcard}>
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
@@ -43,7 +42,7 @@ const Home = () => {
   </Link>
   
   <Link to="/RiskManagement">
-  <SolidCard compact>
+  <SolidCard compact className={Styles.solidcard}>
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
@@ -55,9 +54,10 @@ const Home = () => {
     </SolidCard.Footer>
   </SolidCard>
   </Link>
-  
-  <Link to="/GGOTGas">
-  <SolidCard compact>
+</div>
+<div className={Styles.cardLayout}>
+<Link to="/Gas">
+  <SolidCard compact className={Styles.solidcard}>
       <SolidCard.Body>
         <SolidCard.Body.Icon>
           <User1Icon />
@@ -69,7 +69,25 @@ const Home = () => {
     </SolidCard.Footer>
   </SolidCard>
   </Link>
-</Card.List>
+
+  <Link to="/Lng">
+  <SolidCard compact className={Styles.solidcard}>
+      <SolidCard.Body>
+        <SolidCard.Body.Icon>
+          <User1Icon />
+        </SolidCard.Body.Icon>
+        <SolidCard.Body.Title link>GGOTLng</SolidCard.Body.Title>
+      </SolidCard.Body>
+    <SolidCard.Footer>
+      GGOT LNG Learning hub
+    </SolidCard.Footer>
+  </SolidCard>
+  </Link>
+</div>
+
+
+
+
         </>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HorizontalHeader } from '@exxonmobil/react-unity';
+import { HorizontalHeader, Badge } from '@exxonmobil/react-unity';
 import Styles from "./style.module.scss";
 import { Link } from "react-router-dom";
 
@@ -7,32 +7,47 @@ import { Link } from "react-router-dom";
 function Header (){
 
   return(   
-  <HorizontalHeader className={Styles.horizontal}
-    color="surface"
+
+<HorizontalHeader className={Styles.horizontal}
+    color="main"
     title="Learning Hub"
-    kicker="Energy Products and Trading IT"
-  >
-    <HorizontalHeader.Nav>
-          <Link to="/">
+>
+    <HorizontalHeader.Nav className={Styles.nav}>
+    <Link to="/">
             <HorizontalHeader.Nav.Item active>Home</HorizontalHeader.Nav.Item>
           </Link>
-          
-          <Link to="/Trading">
+    <HorizontalHeader.Nav.Dropdown text="Teams" className={Styles.text} >
+      <HorizontalHeader.Nav.Dropdown.Item>
+      <Link to="/Trading">
             <HorizontalHeader.Nav.Item>Trading</HorizontalHeader.Nav.Item>
           </Link>
-          <Link to="/RiskManagement">
+      </HorizontalHeader.Nav.Dropdown.Item>
+      <HorizontalHeader.Nav.Dropdown.Item>
+      <Link to="/RiskManagement">
             <HorizontalHeader.Nav.Item>Risk Management</HorizontalHeader.Nav.Item>
           </Link>
-          <Link to="/Lng">
+      </HorizontalHeader.Nav.Dropdown.Item>
+      <HorizontalHeader.Nav.Dropdown.Item>
+      <Link to="/Lng">
             <HorizontalHeader.Nav.Item>GGOT LNG</HorizontalHeader.Nav.Item>
           </Link>
-          <Link to="/Gas">
-            <HorizontalHeader.Nav.Item>GGOT Flowing Gas</HorizontalHeader.Nav.Item>
+      </HorizontalHeader.Nav.Dropdown.Item>
+      <HorizontalHeader.Nav.Dropdown.Item>
+      <Link to="/Gas">
+            <HorizontalHeader.Nav.Item>GGOT Gas</HorizontalHeader.Nav.Item>
           </Link>
+      </HorizontalHeader.Nav.Dropdown.Item>
+    </HorizontalHeader.Nav.Dropdown>
     </HorizontalHeader.Nav>
   </HorizontalHeader>
+
+
+
+
   )
 
 }
 
 export default Header;
+
+

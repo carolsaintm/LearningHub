@@ -1,6 +1,22 @@
-.cardLayout{
-    display: flex;
-    align-items: center;
-    margin: 20px;
-    justify-content: space-evenly
+.hero{
+
 }
+
+.cardLayout{
+display: flex;
+flex-direction: row;
+padding: 10px;
+justify-content: space-evenly
+
+}
+
+
+.solidcard{
+height: 150px;
+width: 600px;
+}
+
+.solidcard:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+} 

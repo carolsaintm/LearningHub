@@ -1,11 +1,12 @@
 import {
-    HeroBlock,
-    Button,
-  } from "@exxonmobil/react-unity";
+  HeroBlock,
+  Button,
+} from "@exxonmobil/react-unity";
   import React from "react";
   import keyboard from "../../assets/keyboard.jpg"
   import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
+  import { TrainingList } from "../../components/TrainingList";
 
 const RiskManagement = () => {
 
@@ -21,6 +22,8 @@ const RiskManagement = () => {
     <Button variant="primary">Hero CTA</Button>
   </HeroBlock.Body>
 </HeroBlock>
+
+<TrainingList/>
         </>
     );
 }
