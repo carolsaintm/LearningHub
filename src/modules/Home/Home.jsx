@@ -52,8 +52,7 @@ const Home = () => {
           Risk Management 
         </PictureCard.Body.Title>
         <PictureCard.Body.Description>
-          This is some additional text that accompanies the headline, which
-          could be used to provide a short description
+
         </PictureCard.Body.Description>
       </PictureCard.Body>
     </PictureCard>
@@ -87,9 +86,7 @@ const Home = () => {
     </PictureCard>
   </Link>
 </div>
-<div className={Styles.cardLayout}>
 
-</div>
 
         </>
     );

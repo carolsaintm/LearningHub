@@ -17,8 +17,7 @@ const Gas = () => {
   <HeroBlock.Body>
     <HeroBlock.Title>Welcome to Learning Hub</HeroBlock.Title>
     <HeroBlock.Description>
-      This is some additional text that accompanies the headline, which could be
-      used to provide a short description
+    Explore and expand your knowledge with our learning paths below in all aspects of ExxonMobil Energy Products and Trading IT.
     </HeroBlock.Description>
     <Button variant="primary">Hero CTA</Button>
   </HeroBlock.Body>

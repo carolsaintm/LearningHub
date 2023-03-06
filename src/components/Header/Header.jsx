@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 function Header (){
 
   return(   
-
-<HorizontalHeader className={Styles.horizontal}
+<HorizontalHeader className={Styles.horizontalHead}
     color="surface"
     title="Learning Hub"
 >
@@ -40,10 +39,6 @@ function Header (){
     </HorizontalHeader.Nav.Dropdown>
     </HorizontalHeader.Nav>
   </HorizontalHeader>
-
-
-
-
   )
 
 }

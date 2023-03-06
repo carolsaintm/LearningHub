@@ -6,11 +6,11 @@ import React from "react";
 
 const App = () => {
   const [todos, setTodos] = useState([
-    { task: "https://open.sap.com/", done: false },
-    { task: "Buy ", done: true },
-    { task: "Complete", done: false },
-    { task: "Complete", done: false },
-    { task: "Complete", done: false },
+    { task: "SAP Training", done: false },
+    { task: "Awesome GoTo ", done: false },
+    { task: "Onboarding", done: false },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false },
   ]);
 
   const handleChange = (done, i) => {
@@ -35,15 +35,12 @@ const App = () => {
           id={i}
         />
         <label htmlFor={i}><span className={Styles.text}> <Link to={'https://open.sap.com/'}>{task}</Link></span></label>
-      
     </div>
-    
   ))}
   <br></br>
 <h6>Total Completed: {todos.filter((todo) => todo.done).length}</h6>
 </div>
   );
-  
 };
 
 export default App;
