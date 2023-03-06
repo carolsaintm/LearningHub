@@ -9,7 +9,7 @@ function Header (){
   return(   
 
 <HorizontalHeader className={Styles.horizontal}
-    color="main"
+    color="surface"
     title="Learning Hub"
 >
     <HorizontalHeader.Nav className={Styles.nav}>

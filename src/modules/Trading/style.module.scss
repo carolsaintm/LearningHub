@@ -1,39 +1,9 @@
-.icons{
-    height: 50px;
-    width: 50px;
-    margin-right: 15px;
-}
-
-.top{
-   background-color:lightgray;
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   align-items: center;
-   padding: 20px;
-}
-
-.top:hover{
-    background-color: rgb(143, 141, 141);
-    color: rgb(228, 225, 225);
-}
-
-.footer{
-    padding: 15px;
-    margin: 0;
-    width: 100%;
-}
-
-.grid{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-.line{
-    width: 95%;
-}
 
 .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    flex-wrap: wrap;
 }

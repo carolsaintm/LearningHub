@@ -7,6 +7,8 @@ const App = () => {
     { task: "https://open.sap.com/", done: false },
     { task: "Buy ", done: true },
     { task: "Complete", done: false },
+    { task: "Complete", done: false },
+    { task: "Complete", done: false },
   ]);
 
   const handleChange = (done, i) => {
