@@ -1,22 +1,22 @@
 .icons{
-    height: 40px;
-    width: 40px;
-    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
 }
 
 .top{
-   background-color:lightgray;
    display: flex;
-   flex-direction: row;
    justify-content: flex-start;
+   flex-direction: row;
    align-items: center;
    padding: 20px;
    transition: 700ms all;
+   width: 100%;
 }
 
 
 .card{
-    width: 360px;
+    width: 380px;
     height: auto;
     margin-left: 20px;
     margin-bottom: 10px;

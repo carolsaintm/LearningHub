@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Styles from "./style.module.scss"
 import { Link } from "react-router-dom";
+import React from "react";
+
 
 const App = () => {
   const [todos, setTodos] = useState([
@@ -18,6 +20,7 @@ const App = () => {
     todosClone[i] = tmp;
     setTodos([...todosClone]);
   };
+
   return (
 
     <div className={Styles.list}>
@@ -36,9 +39,8 @@ const App = () => {
     </div>
     
   ))}
-<br></br>
+  <br></br>
 <h6>Total Completed: {todos.filter((todo) => todo.done).length}</h6>
-
 </div>
   );
   
