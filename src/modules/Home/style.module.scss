@@ -39,3 +39,10 @@ flex-direction: row;
 background-color: aqua;
 }
 
+
+@media (width > 1900px)
+{
+  .solidcard{
+    width: 450px;
+  }
+}

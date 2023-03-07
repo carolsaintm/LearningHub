@@ -2,8 +2,8 @@
 .list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 20px;
     flex-wrap: wrap;
 }

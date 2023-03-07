@@ -29,13 +29,33 @@ const RiskManagement = () => {
 </HeroBlock>
 
 <div className={Styles.list}>
-<TrainingList Title="General" icon={openBook} />
-<TrainingList Title="Front End Developer" icon={onlineTest}/>
-<TrainingList Title="Snowflake Developer" icon={snowflake}/>
-<TrainingList Title="API Developer" icon={apiImg}/>
-<TrainingList Title="ABAP Developer" icon={sap} />
-<TrainingList Title="Analyst" icon={onlineTest}/>
-<TrainingList Title="System Architect" icon={sa}/>
+<TrainingList Title="General" icon={openBook} todos={[{ task: "Onboarding Hub", done: false, link: "https://performancemanager4.successfactors.com/saml2/Login?company=exxonmobilP&RelayState=/sf/idp/SAML2/SSO/POST/company/exxonmobilP&bplte_company=exxonmobilP&_s.crb=Vp3fT%252b%252fV3Wp6DGnbzpxOMVLxUkbhKC0FnD4CXHI3N9Y%253d" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Agile Introduction", done: false, link: "https://agilewiki.xom.cloud/wiki/Metrics_Videos" },]}/>
+<TrainingList Title="Front End Developer" icon={onlineTest} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
+<TrainingList Title="Snowflake Developer" icon={snowflake} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
+<TrainingList Title="API Developer" icon={apiImg} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
+<TrainingList Title="ABAP Developer" icon={sap} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]} />
+<TrainingList Title="Analyst" icon={onlineTest} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
+<TrainingList Title="System Architect" icon={sa} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
 </div>
         </>
     );

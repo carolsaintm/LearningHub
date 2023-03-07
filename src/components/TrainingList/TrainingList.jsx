@@ -24,7 +24,7 @@ const TrainingList = (props) => {
         </div> 
         <SolidCard.Body.Title>{props.Title}</SolidCard.Body.Title>
       </SolidCard>
-         <Checkbox/>
+         <Checkbox todos={props.todos}/>
     </SolidCard>
   </Card.List>
           </>
