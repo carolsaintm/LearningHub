@@ -7,6 +7,10 @@ import {
   import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
 import { TrainingList } from "../../components/TrainingList";
+import snowflake from "./../../assets/snowflake.png";
+  import apiImg from "./../../assets/apiImg.png";
+  import openBook from "./../../assets/openBook.png";
+  import sap from "./../../assets/sap.png";
 
 const Gas = () => {
 
@@ -23,7 +27,12 @@ const Gas = () => {
   </HeroBlock.Body>
 </HeroBlock>
 
-<TrainingList/>
+<div className={Styles.list}>
+<TrainingList Title="General" icon={openBook} />
+<TrainingList Title="Snowflake Developer" icon={snowflake} />
+<TrainingList Title="API Developer" icon={apiImg} />
+<TrainingList Title="HANA Developer" icon={sap} />
+</div>
         </>
     );
 }

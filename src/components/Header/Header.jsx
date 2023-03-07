@@ -9,8 +9,12 @@ function Header (){
   return(   
 <HorizontalHeader className={Styles.horizontalHead}
     color="surface"
-    title="Learning Hub"
+    title={ <Link to="/">
+    <a>Learning Hub</a>
+  </Link>}
 >
+  <div>
+  </div>
     <HorizontalHeader.Nav className={Styles.nav}>
     <Link to="/">
             <HorizontalHeader.Nav.Item active>Home</HorizontalHeader.Nav.Item>

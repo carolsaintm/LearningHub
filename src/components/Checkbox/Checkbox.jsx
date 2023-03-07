@@ -10,7 +10,6 @@ const App = () => {
     { task: "Awesome GoTo ", done: false },
     { task: "Onboarding", done: false },
     { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false },
-    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false },
   ]);
 
   const handleChange = (done, i) => {

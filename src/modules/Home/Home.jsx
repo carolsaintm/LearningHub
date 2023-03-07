@@ -38,8 +38,7 @@ const Home = () => {
           Trading 
         </PictureCard.Body.Title>
         <PictureCard.Body.Description>
-          This is some additional text that accompanies the headline, which
-          could be used to provide a short description
+          Trading learning resources
         </PictureCard.Body.Description>
       </PictureCard.Body>
     </PictureCard>
@@ -52,7 +51,7 @@ const Home = () => {
           Risk Management 
         </PictureCard.Body.Title>
         <PictureCard.Body.Description>
-
+          Risk Management learning resources
         </PictureCard.Body.Description>
       </PictureCard.Body>
     </PictureCard>
@@ -65,8 +64,7 @@ const Home = () => {
           GGOT Flowing Gas 
         </PictureCard.Body.Title>
         <PictureCard.Body.Description>
-          This is some additional text that accompanies the headline, which
-          could be used to provide a short description
+          GGOT learning resources
         </PictureCard.Body.Description>
       </PictureCard.Body>
     </PictureCard>
@@ -79,8 +77,7 @@ const Home = () => {
           GGOT Lng 
         </PictureCard.Body.Title>
         <PictureCard.Body.Description>
-          This is some additional text that accompanies the headline, which
-          could be used to provide a short description
+          GGOT learning resources
         </PictureCard.Body.Description>
       </PictureCard.Body>
     </PictureCard>
