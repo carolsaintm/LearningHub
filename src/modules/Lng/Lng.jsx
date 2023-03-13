@@ -16,7 +16,7 @@ const Lng = () => {
 
     return(
         <>
-        <HeroBlock backgroundImage={keyboard}>
+        <HeroBlock backgroundImage={keyboard} alt="open notebook on a desk with a coffee mug beside it">
   <HeroBlock.Body>
     <HeroBlock.Title>Welcome to Learning Hub</HeroBlock.Title>
     <HeroBlock.Description>

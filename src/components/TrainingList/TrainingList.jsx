@@ -1,6 +1,8 @@
 import {
     SolidCard,
     Card,
+    Switch,
+    Field
   } from "@exxonmobil/react-unity";
     import React from "react";
     import { Link } from "react-router-dom";
@@ -13,6 +15,8 @@ const TrainingList = (props) => {
     const [checkedA, setCheckedA] = React.useState(true);
     const [checkedB, setCheckedB] = React.useState(true);
     const [checkedC, setCheckedC] = React.useState(false);
+
+    const [isMainOn, setIsMainOn] = React.useState(true);
     
       return(
           <>
@@ -24,7 +28,15 @@ const TrainingList = (props) => {
         </div> 
         <SolidCard.Body.Title>{props.Title}</SolidCard.Body.Title>
       </SolidCard>
-         <Checkbox todos={props.todos}/>
+      <Field className={Styles.switch}> 
+    <Switch className={Styles.switch}
+      label="To Do" 
+      active={isMainOn}
+      color="main"
+      onClick={() => setIsMainOn(!isMainOn)}/>
+  </Field>
+  <h3 className={Styles.train}>Trainings</h3>
+  <Checkbox todos={props.todos}/>
     </SolidCard>
   </Card.List>
           </>

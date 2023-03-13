@@ -13,14 +13,13 @@ import {
   import analyst from "./../../assets/analyst.png"
   import sap from "./../../assets/sap.png";
   import { TrainingList } from "../../components/TrainingList";
-  import {DeviceLaptopIcon, SnowflakeIcon, FolderSharedIcon, WrenchIcon} from "@exxonmobil/react-unity"
 
 
 const Trading = () => {
 
     return(
         <>
-        <HeroBlock backgroundImage={keyboard}>
+        <HeroBlock backgroundImage={keyboard} alt="open notebook on a desk with a coffee mug beside it">
   <HeroBlock.Body>
     <HeroBlock.Title>Welcome to Learning Hub</HeroBlock.Title>
     <HeroBlock.Description>
@@ -47,13 +46,12 @@ const Trading = () => {
     { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
     { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
 <TrainingList Title="Hana Developer" icon={sap} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
-    { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
-    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
+    { task: "SAP HANA Fundamentals", done: false, link: "https://www.youtube.com/watch?v=ljdvqRtSHd4"},
+    { task: "SAP HANA Fundamentals", done: false, link: "https://training.sap.com/course/ha100-sap-hana--360-introduction-classroom-017-us-en/?" },
     { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
-<TrainingList Title="Analyst" icon={analyst} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+<TrainingList Title="Analyst" icon={analyst} todos={[{ task: "Team`s OneNotes", done: false, link: "https://ishareteam3.na.xom.com/sites/FVCIT/Shared%20Documents/FVC%20Portfolio%20Execution%20OneNote/Trading%20and%20Analytics%20Program/Trading/Trading%20Asia%20Pacific/" },
     { task: "Awesome GoTo ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
-    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
-    { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
+    { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },]}/>
 </div>
 
         </>

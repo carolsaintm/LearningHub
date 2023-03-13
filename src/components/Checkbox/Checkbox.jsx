@@ -18,10 +18,11 @@ const Checkbox = (props) => {
     setTodos([...todosClone]);
   };
 
+  const [isAccentOn, setIsAccentOn] = React.useState(true);
+  
   return (
 
     <div className={Styles.list}>
-  <h3>Trainings</h3>
   {todos.map(({ task, done, link}, i) => (
     <div className={Styles.checkboxwrapper11} key={i}>
       
