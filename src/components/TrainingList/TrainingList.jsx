@@ -30,8 +30,8 @@ const TrainingList = (props) => {
       </SolidCard>
       <Field className={Styles.switch}> 
     <Switch className={Styles.switch}
-      label="To Do" 
-      active={isMainOn}
+      label="To Do"
+      active={!isMainOn}
       color="main"
       onClick={() => setIsMainOn(!isMainOn)}/>
   </Field>

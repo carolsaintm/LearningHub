@@ -4,7 +4,6 @@ import {
 } from "@exxonmobil/react-unity";
   import React from "react";
   import keyboard from "../../assets/keyboard.jpg"
-  import { Link } from "react-router-dom";
   import Styles from "./style.module.scss";
   import { TrainingList } from "../../components/TrainingList";
   import snowflake from "./../../assets/snowflake.png";
@@ -61,6 +60,7 @@ const RiskManagement = () => {
     { task: "Snowflake Advanced", done: false, link: "https://community.snowflake.com/s/education-services"},
     { task: "Snowflake Certification", done: false, link: "https://www.snowflake.com/certifications/"},
     ]}/>
+
 <TrainingList Title="API Developer" icon={apiImg} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
     { task: "Azure Overview", done: false, link: "\\ap\dfs\BLR\EMIT-TLN\Training Videos\TLN_Training_Azure_Cloud_Fundamentals_Part 2.mp4"},
     { task: "Azure Learning Path", done: false, link: "https://gotocloud.xom.cloud/learning-paths-azure/" },
@@ -73,7 +73,8 @@ const RiskManagement = () => {
     { task: "SQL with Python", done: false, link: "https://www.linkedin.com/learning/using-sql-with-python/use-sql-with-python?autoplay=true&u=2151522" },
     { task: "Python for Data Science", done: false, link: "https://www.linkedin.com/learning/python-for-data-science-tips-tricks-techniques/welcome?autoplay=true&u=2151522" },
     { task: "The World of APIs - Overview", done: false, link: "../../../../../../../../SASDSSCM/FLDigital/MediaLibrary/Media%20Library/DAS/Master%20Class/24%20-%20The%20World%20of%20APIs.mp4" },
-    { task: "RESTful API", done: false, link: "https://ishareteam5.na.xom.com/sites/FLChemSol/FLBI/Foundation/Reference%20material/TLN_REST_API_CI_CD_Training.pptx" }]}/>
+    { task: "RESTful API", done: false, link: "https://ishareteam5.na.xom.com/sites/FLChemSol/FLBI/Foundation/Reference%20material/TLN_REST_API_CI_CD_Training.pptx" }
+    ]}/>
 
 <TrainingList Title="ABAP Developer" icon={sap} todos={[{ task: "ABAP Tutorial", done: false, link: "https://www.guru99.com/abap-tutorial.html" },
     { task: "ABAP Language", done: false, link: "https://www.tutorialspoint.com/sap_abap/index.htm"},
@@ -85,14 +86,15 @@ const RiskManagement = () => {
     { task: "SAP HANA Modeling", done: false, link: "https://training.sap.com/course/ha300-sap-hana-20-sps05-modeling-classroom-017-us-en/?"},
     { task: "Data Modelling Fundamentals", done: false, link: "https://www.dataversity.net/dataed-webinar-data-modeling-fundamentals/" }]} />
 
-<TrainingList Title="Analyst" icon={onlineTest} todos={[{ task: "SAP Training", done: false, link: "https://open.sap.com/" },
+<TrainingList Title="Analyst" icon={onlineTest} todos={[{ task: "PMR/PMR+ Overview", done: false, link: "https://ishareteam4.na.xom.com/sites/TABP/home/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b8BBACB2B-A10D-4C99-95E9-3EC48A373C2F%7d&file=PMR%2B%20Training.pptx&action=default" },
     { task: "PMR/PMR+ Essentials", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos"},
     { task: "Onboarding", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" },
     { task: "https://wiki.na.xom.com/index.php/Awesome_GoTos ", done: false, link: "https://wiki.na.xom.com/index.php/Awesome_GoTos" }]}/>
 
 <TrainingList Title="System Architect" icon={sa} todos={[{ task: "Cloud Overview", done: false, link: "https://www.educba.com/cloud-computing-services/" },
     { task: "Architecture 101", done: false, link: "https://exxonmobil.plateau.com/learning/user/common/viewItemDetails.do?componentTypeID=COURSE&componentID=513004&revisionDate=1617635640000&catalogCurrencyCode=USD&returnLink=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D&backto=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D"},
-    { task: "Architecture 201", done: false, link: "https://exxonmobil.plateau.com/learning/user/common/viewItemDetails.do?componentTypeID=COURSE&componentID=536006&revisionDate=1649069580000&catalogCurrencyCode=USD&returnLink=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D&backto=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D" }]}/>
+    { task: "Architecture 201", done: false, link: "https://exxonmobil.plateau.com/learning/user/common/viewItemDetails.do?componentTypeID=COURSE&componentID=536006&revisionDate=1649069580000&catalogCurrencyCode=USD&returnLink=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D&backto=%2Flearning%2Fuser%2Fcatalogsearch%2FcatalogSearchDispatchAction.do%3FsearchType%3DfilteredSearch%26keywords%3D" }
+    ]}/>
 </div>
         </>
     );
